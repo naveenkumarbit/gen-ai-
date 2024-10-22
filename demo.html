@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>demo page</title>
+    </head>
+    <body>
+        <div>
+            <h1 id="h1">Hello World</h1>
+            <button onclick="change() ">change</button>
+        </div>
+        <style>
+            div{
+                margin-top:300px;
+                font-size: 30px;
+                text-align: center;
+            }
+            div button{
+                width:10%
+
+
+
+            }
+        </style>
+        <script>
+            var p=document.getElementById("h1")
+            console.log(p.textContent)
+            function change()
+            {
+                p.textContent="Bye world"
+            }
+        </script>
+    </body>
+</html>
